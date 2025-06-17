@@ -120,12 +120,5 @@ As NHL teams continue to embrace analytics, we may see lineups evolve based on p
 
 ---
 
-## 📁 Project Structure
-
-```bash
-📦 nhl-role-crossovers/
-├── data/                   # Cleaned NHL player stats
-├── notebooks/              # EDA and clustering experiments
-├── full_report/            # The full detailed report
-├── README.md               # This file
-├── imgs/                   # README images
+🚀 This project is open-source!
+Contributions, suggestions, and role-bending ideas are all welcome — feel free to fork, clone, or submit a pull request if you want to build on it.

@@ -25,14 +25,22 @@ To understand potential role crossovers, we examined how offensive and defensive
 - **Defenders** tend to have more time on ice and more positive goal differentials, possibly due to their presence in critical moments.
 - **Point totals** skew heavily toward offensive players — though a few standout defenders blur the line.
 
-![](img19.jpg)
-![](img20.jpg)
-![](img21.jpg)
+<p align="center">
+  <img src="imgs/goals.jpg" width="600"/>
+</p>
+<p align="center">
+  <img src="imgs/assists.jpg" width="600"/>
+</p>
+<p align="center">
+  <img src="imgs/toi.jpg" width="600"/>
+</p>
 
 ---
 
 ## 🔍 Can We Spot Misused Players?
-![](3dCluster.jpg)
+<p align="center">
+  <img src="imgs/3dCluster.jpg" width="600"/>
+</p>
 
 To identify players who may be miscast in their roles, we used **K-Means clustering** on core player stats. This unsupervised learning method grouped players by statistical similarity — regardless of their listed position.
 
@@ -47,7 +55,9 @@ These clusters may suggest untapped flexibility in team strategies or underutili
 ---
 
 ## 🌟 Spotlight on Role-Bending Players
-![](2dCluster.png)
+<p align="center">
+  <img src="imgs/2dCluster.png" width="600"/>
+</p>
 
 Here are a few players that defy traditional roles:
 
@@ -59,7 +69,9 @@ Here are a few players that defy traditional roles:
 ---
 
 ## 🔗 What Do Similarities Reveal?
-![](graph.jpg)
+<p align="center">
+  <img src="imgs/graph.jpg" width="600"/>
+</p>
 
 We also built a **k-Nearest Neighbors (k-NN) similarity graph** to explore player playstyle resemblance.
 
@@ -72,11 +84,15 @@ We also built a **k-Nearest Neighbors (k-NN) similarity graph** to explore playe
 ---
 
 ## ⚠️ Limitations of Our Approach
-![](limitations.jpg)
+<p align="center">
+  <img src="imgs/limitations.jpg" width="600"/>
+</p>
 
 A major limitation was the **limited stat coverage** available from NHL’s public data. This restricts how robust our clustering and similarity analysis can be.
 
-![](limitations1.jpg)
+<p align="center">
+  <img src="imgs/limitations1.jpg" width="600"/>
+</p>
 
 For example:
 - **Dylan Cozens** was grouped with defenders due to weak offensive stats — not strong defense.
@@ -110,7 +126,6 @@ As NHL teams continue to embrace analytics, we may see lineups evolve based on p
 📦 nhl-role-crossovers/
 ├── data/                   # Cleaned NHL player stats
 ├── notebooks/              # EDA and clustering experiments
-├── models/                 # K-means and k-NN implementations
-├── visualizations/         # Plots and graphs
 ├── full_report/            # The full detailed report
 ├── README.md               # This file
+├── imgs/                   # README images

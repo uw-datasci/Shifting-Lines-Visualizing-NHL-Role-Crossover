@@ -80,7 +80,7 @@ We also built a **k-Nearest Neighbors (k-NN) similarity graph** to explore playe
 
 A major limitation was the **limited stat coverage** available from NHL’s public data. This restricts how robust our clustering and similarity analysis can be.
 
-![](img41.jpg)
+![](limitations1.jpg)
 
 For example:
 - **Dylan Cozens** was grouped with defenders due to weak offensive stats — not strong defense.

@@ -47,7 +47,7 @@ These clusters may suggest untapped flexibility in team strategies or underutili
 ---
 
 ## 🌟 Spotlight on Role-Bending Players
-![](2dCluster.jpg)
+![](2dCluster.png)
 
 Here are a few players that defy traditional roles:
 
@@ -61,6 +61,7 @@ Here are a few players that defy traditional roles:
 ---
 
 ## 🔗 What Do Similarities Reveal?
+![](graph.jpg)
 
 We also built a **k-Nearest Neighbors (k-NN) similarity graph** to explore player playstyle resemblance.
 
@@ -75,8 +76,11 @@ We also built a **k-Nearest Neighbors (k-NN) similarity graph** to explore playe
 ---
 
 ## ⚠️ Limitations of Our Approach
+![](limitations.jpg)
 
 A major limitation was the **limited stat coverage** available from NHL’s public data. This restricts how robust our clustering and similarity analysis can be.
+
+![](img41.jpg)
 
 For example:
 - **Dylan Cozens** was grouped with defenders due to weak offensive stats — not strong defense.

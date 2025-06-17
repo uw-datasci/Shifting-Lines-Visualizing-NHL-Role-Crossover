@@ -32,7 +32,7 @@ To understand potential role crossovers, we examined how offensive and defensive
 ---
 
 ## 🔍 Can We Spot Misused Players?
-
+![](3dCluster.jpg)
 To identify players who may be miscast in their roles, we used **K-Means clustering** on core player stats. This unsupervised learning method grouped players by statistical similarity — regardless of their listed position.
 
 ### Highlights:
@@ -46,6 +46,7 @@ These clusters may suggest untapped flexibility in team strategies or underutili
 ---
 
 ## 🌟 Spotlight on Role-Bending Players
+![](2dCluster.jpg)
 
 Here are a few players that defy traditional roles:
 
@@ -110,4 +111,5 @@ As NHL teams continue to embrace analytics, we may see lineups evolve based on p
 ├── notebooks/              # EDA and clustering experiments
 ├── models/                 # K-means and k-NN implementations
 ├── visualizations/         # Plots and graphs
+├── full_report/            # The full detailed report
 ├── README.md               # This file

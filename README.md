@@ -25,7 +25,9 @@ To understand potential role crossovers, we examined how offensive and defensive
 - **Defenders** tend to have more time on ice and more positive goal differentials, possibly due to their presence in critical moments.
 - **Point totals** skew heavily toward offensive players — though a few standout defenders blur the line.
 
-📊 *Insert visualization comparing goals, assists, time on ice, and goal differential here*
+![](img19.jpg)
+![](img20.jpg)
+![](img21.jpg)
 
 ---
 
@@ -39,7 +41,7 @@ To identify players who may be miscast in their roles, we used **K-Means cluster
 
 These clusters may suggest untapped flexibility in team strategies or underutilized talent.
 
-📊 *Insert K-means cluster visualization here*
+![]()
 
 ---
 

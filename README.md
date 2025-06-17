@@ -10,7 +10,7 @@ This project explores NHL Role Crossovers using data-driven visualizations and m
 While watching the Florida Panthers vs. Toronto Maple Leafs series, something caught my attention during Game 5. Panthers’ defensemen **Aaron Ekblad** and **Dmitry Kulikov** scored back-to-back opening goals — a moment commentators noted as a first in NHL history.
 
 That (sad) moment made me wonder:  
-> “Are there defenders who would be better suited as forwards? Are teams underutilizing players by locking them into rigid roles?”
+> “Defensemen scored the opening goals of this game, so are there any defenders better suited as forwards? Are teams underutilizing players by locking them into rigid roles?”
 
 Those questions kicked off this project.
 
@@ -23,7 +23,7 @@ To understand potential role crossovers, we examined how offensive and defensive
 - **Offensive players** score more goals and take more shots on target.
 - **Assist rates** are relatively similar, though forwards have a larger distribution.
 - **Defenders** tend to have more time on ice and more positive goal differentials, possibly due to their presence in critical moments.
-- **Point totals** skew heavily toward offensive players — though a few standout defenders blur the line.
+- **Point totals** skew heavily toward offensive players, though a few standout defenders blur the line.
 
 <p align="center">
   <img src="imgs/goals.jpg" width="600"/>
@@ -42,7 +42,7 @@ To understand potential role crossovers, we examined how offensive and defensive
   <img src="imgs/3dCluster.jpg" width="600"/>
 </p>
 
-To identify players who may be miscast in their roles, we used **K-Means clustering** on core player stats. This unsupervised learning method grouped players by statistical similarity — regardless of their listed position.
+To identify players who may be miscast in their roles, we used **K-Means clustering** on core player stats. This unsupervised learning method grouped players by statistical similarity, regardless of their listed 'position.'
 
 ### Highlights:
 - **4 defenders** were grouped with offensive players.
@@ -59,12 +59,12 @@ These clusters may suggest untapped flexibility in team strategies or underutili
   <img src="imgs/2dCluster.png" width="600"/>
 </p>
 
-Here are a few players that defy traditional roles:
+Here are a few players who defy traditional roles:
 
-- **Cale Makar (D):** One of the league’s top goal scorers — despite playing defense.
+- **Cale Makar (D):** One of the league’s top goal scorers, despite being a defender.
 - **Jake Sanderson (D):** Statistically mirrors elite forwards; could thrive in a more offensive role.
 - **Dylan Cozens (C):** Clustered with defenders, not due to defensive skill, but a weaker offensive season.
-- **Fabian Zetterlund (C):** May have been grouped with defenders due to his high positive goal differential.
+- **Fabian Zetterlund (C):** May have been grouped with defenders due to his high positive goal differential, and, as a center, could be filling in defensive gaps.
 
 ---
 
@@ -73,7 +73,7 @@ Here are a few players that defy traditional roles:
   <img src="imgs/graph.jpg" width="600"/>
 </p>
 
-We also built a **k-Nearest Neighbors (k-NN) similarity graph** to explore player playstyle resemblance.
+We also built a **k-Nearest Neighbours (k-NN) similarity graph** to explore player playstyle resemblance.
 
 ### Key Insights:
 - Most defenders are similar to other defenders — and likewise for forwards.
@@ -88,14 +88,14 @@ We also built a **k-Nearest Neighbors (k-NN) similarity graph** to explore playe
   <img src="imgs/limitations.jpg" width="600"/>
 </p>
 
-A major limitation was the **limited stat coverage** available from NHL’s public data. This restricts how robust our clustering and similarity analysis can be.
+One key limitation was the **limited stat coverage** available from the NHL website’s player tracking data. This restricts how robust our clustering and similarity analysis can be.
 
 <p align="center">
   <img src="imgs/limitations1.jpg" width="600"/>
 </p>
 
-For example:
-- **Dylan Cozens** was grouped with defenders due to weak offensive stats — not strong defense.
+Observing this specifically:
+- **Dylan Cozens** may have been grouped with defenders due to weak offensive stats, not strong defensive stats.
 - He shares similar "statistical weaknesses" with defenders but lacks true defensive indicators.
 - His most similar players (via k-NN) were all forwards, highlighting the flaw in clustering logic.
 
@@ -103,11 +103,11 @@ For example:
 
 ## ✅ Takeaway
 
-By analyzing performance beyond just positional labels, we uncover players whose roles may be optimized or reimagined. Some defenders play like attackers. Some forwards could thrive in defense.
+By analyzing performance beyond mere positional labels, this report uncovers players whose roles may be optimized or reimagined. Some defenders play like offenders, and some forwards could could thrive in defence.
 
 As NHL teams continue to embrace analytics, we may see lineups evolve based on performance profiles — not just tradition.
 
-> And hey, maybe Ottawa wins the next Battle of Ontario with a few bold role swaps.  
+> And hey, maybe Ottawa can win the next Battle of Ontario with a few bold role swaps.  
 > (*though probably not 😅*)
 
 ---
@@ -121,4 +121,4 @@ As NHL teams continue to embrace analytics, we may see lineups evolve based on p
 ---
 
 🚀 This project is open-source!
-Contributions, suggestions, and role-bending ideas are all welcome — feel free to fork, clone, or submit a pull request if you want to build on it.
+Contributions, suggestions, and innovative ideas are all welcome — feel free to fork, clone, or submit a pull request if you want to build on it.

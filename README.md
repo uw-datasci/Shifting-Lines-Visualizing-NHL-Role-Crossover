@@ -56,8 +56,6 @@ Here are a few players that defy traditional roles:
 - **Dylan Cozens (C):** Clustered with defenders, not due to defensive skill, but a weaker offensive season.
 - **Fabian Zetterlund (C):** May have been grouped with defenders due to his high positive goal differential.
 
-📊 *Insert individual player stat breakdowns or radar charts here*
-
 ---
 
 ## 🔗 What Do Similarities Reveal?
@@ -70,8 +68,6 @@ We also built a **k-Nearest Neighbors (k-NN) similarity graph** to explore playe
 - Players from the same team don’t necessarily play alike.
 - **Cale Makar** again shows strong ties to offensive players.
 - **Jake Sanderson** displays hybrid similarity, supporting his flexible profile.
-
-📊 *Insert similarity network graph here*
 
 ---
 

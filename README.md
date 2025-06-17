@@ -33,6 +33,7 @@ To understand potential role crossovers, we examined how offensive and defensive
 
 ## 🔍 Can We Spot Misused Players?
 ![](3dCluster.jpg)
+
 To identify players who may be miscast in their roles, we used **K-Means clustering** on core player stats. This unsupervised learning method grouped players by statistical similarity — regardless of their listed position.
 
 ### Highlights:
